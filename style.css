@@ -1,0 +1,59 @@
+*{ 
+    margin: 0%;
+    padding: 0%
+}
+
+* body {  
+    /* la couleur de fond principale sera rose */
+
+    background-color: #fab1a0 ; 
+    
+     /* la police d'écriture sans cerif */ 
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: normal;
+
+}
+
+.carte h1, .carte h2, .carte h3 {
+
+    color: #ff7675; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+#main-header {
+
+    background-color: brown;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nav-list {
+
+    list-style: none; 
+
+} 
+
+.nav-item {
+
+    display: inline-block; 
+    margin: 0%;
+
+}
+
+.nav-item :hover {
+
+    text-decoration: none;
+    color:pink
+
+}
+
+
+
+
