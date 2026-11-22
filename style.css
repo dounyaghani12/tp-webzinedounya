@@ -53,7 +53,42 @@
 
 }
 
+#main-content {
 
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.post-card { 
+
+    display: inline-block; 
+    vertical-align: top;
+    width: 48%;
+    margin: 10px 1%;
+}
+
+.post-card {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 10px 1%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0%;
+    box-shadow: #ff7675;
+}
+
+.post-thumbnail img {
+
+    max-width: 100%; height: auto;
+
+ } 
+
+ 
 
 
 
