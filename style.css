@@ -88,7 +88,67 @@
 
  } 
 
- 
+.data-table { 
+    
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.data-table th 
+.data-table td {
+
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+
+
+}
+
+.data-table tr:nth-child(even) {
+
+    background-color: #fab1a0
+}
+
+.transcript-box {
+
+    padding: 10%;
+    border-left: 5px solid #fab1a0; 
+
+}
+
+#main-footer {
+
+    background-color: brown;
+    text-align: center;
+    color: #fab1a0;
+}
+
+.contact-info {
+
+    display:block;
+    padding: 15px;
+    line-height: 1.6;
+
+
+}
+
+.contact-info a {
+
+    display:inline-block;
+    margin-top: 6px;
+}
+
+summary:hover {
+
+    cursor: pointer;
+}
+
+
+
+     
+    
+
 
 
 
