@@ -287,4 +287,53 @@ h2::after {
 
     }
 
+    img,
+    .promo-video,
+    canvas  { 
+     
+        max-width: 100%;
+        height: auto;
+    }
+
+   @media screen and (max-width: 900px) {
+    #main-content {
+        padding: 0 20px;
+    }
+
+    #main-header {
+        padding: 1.5rem;
+    }
+
+    .post-card {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-item {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .post-card {
+        width: 100%;
+        margin: 15px 0;
+    } 
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 { 
     
+        font-size: 1.25rem;
+    }
+
+    .date-table {
+
+        font-size: 0.85rem; 
+        padding: 6px;
+    }
+}  
+
+
