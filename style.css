@@ -208,3 +208,83 @@ summary:hover {
     border-bottom: 2px solid #333;
  }
 
+ /* enrichissement visuel avec les pseudo-elements */ 
+
+#hero-section p:first-of-type :first-letter {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+::selection {
+    background: color #cce5ff;
+    color:#002752;
+}
+
+h2::after {
+
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #c1121f;
+    margin-top: 8px;
+}
+
+    .post-card footer a::after {
+
+        content: " ->";
+
+    }
+
+    summary::marker {
+        
+        color: #c1121f;
+    }
+
+    /* fluidifier les interaction avec les transitions*/
+
+    .nav-item a {
+
+        transition: background-color 0.3s ease, color 0.3 ease;
+
+    }
+
+    .post-card {
+
+        transition: transform 0.3s ease; box-shadow 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    }
+
+    .post-card:hover {
+
+        transform: translateY(-5px);
+        box-shadow: 0 10px 24px rgba(0,0,0,0.16);
+    }
+
+    .post-thumbnail { 
+
+         overflow: hidden; 
+
+
+    }
+    .post-thumbnail img {
+
+        transition: transform 0.4s ease;
+    }
+
+    .post-card:hover .post-thumbnail img {
+
+         transform: scale(1.05);
+    }
+
+    tr,
+    summary {
+         
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    }
+
+    
