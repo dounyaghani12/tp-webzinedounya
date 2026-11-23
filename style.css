@@ -144,12 +144,67 @@ summary:hover {
     cursor: pointer;
 }
 
+.nav-item a:hover {
 
-
-     
     
+    color: black;
+    background-color: aliceblue;
+    padding: 3px 8px;
+    border-radius: 6px;
+
+}
+
+:active { 
+
+    opacity: 0.7;
+}
+
+:focus { 
+
+    outline: 2px solid #2d3436;
+}
+ 
+.post-card footer li:last-child {
+
+      blackground-color: black;
+      padding: 6px 12px;
+      border-radius: 6px;
+}
+
+.post-card footer li:last-child a {
+
+      color: white;
+      text-decoration: none;
+}
+
+.post-card footer li:not(:last-child) {
+
+    border: 1px solid #ccc;
+    background-color: #f4F4F4;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    color: #333;
+} 
+
+.data-table tr:nth-child(even) {
+
+    blackground-color: #f8f9fa;
 
 
+}
 
+.data-table tr:hover:not(:first-child) {
 
+    blackground-color: #ffeaa7;
+}
+
+summary:hover {
+    color: #0056b3;
+    cursor:pointer;
+}
+ details [open] summary {
+
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+ }
 
